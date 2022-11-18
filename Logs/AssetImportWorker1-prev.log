@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 8030 MB
+Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 8072 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\Program Files\UnityEditor\2021.3.10f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/Drr/Desktop/ROBO-tics
+C:/Users/tsstu/OneDrive/Documents/GameDev/ROBO-tics
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65290
-Successfully changed project path to: C:/Users/Drr/Desktop/ROBO-tics
-C:/Users/Drr/Desktop/ROBO-tics
+60657
+Successfully changed project path to: C:/Users/tsstu/OneDrive/Documents/GameDev/ROBO-tics
+C:/Users/tsstu/OneDrive/Documents/GameDev/ROBO-tics
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,105 +47,106 @@ C:/Users/Drr/Desktop/ROBO-tics
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 368.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 211.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
-[Subsystems] Discovering subsystems at path D:/Program Files/UnityEditor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Drr/Desktop/ROBO-tics/Assets
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tsstu/OneDrive/Documents/GameDev/ROBO-tics/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c91)
     Vendor:   NVIDIA
-    VRAM:     5991 MB
-    Driver:   30.0.15.1278
+    VRAM:     2996 MB
+    Driver:   27.21.14.5749
 Initialize mono
-Mono path[0] = 'D:/Program Files/UnityEditor/2021.3.10f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Program Files/UnityEditor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Program Files/UnityEditor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Program Files/UnityEditor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017413 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008196 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 353.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 132.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.046 seconds
+- Completed reload, in  1.141 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3048ms)
-		BeginReloadAssembly (403ms)
+	ReloadAssembly (1142ms)
+		BeginReloadAssembly (252ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (2157ms)
-			LoadAssemblies (400ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (726ms)
+			LoadAssemblies (245ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (512ms)
+			SetupTypeCache (146ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (137ms)
-			SetupLoadedEditorAssemblies (1284ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (454ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (354ms)
-				BeforeProcessingInitializeOnLoad (5ms)
-				ProcessInitializeOnLoadAttributes (678ms)
-				ProcessInitializeOnLoadMethodAttributes (212ms)
+				RefreshPlugins (133ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.025953 seconds.
+Registered in 0.012595 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Drr\Desktop\ROBO-tics\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Drr\Desktop\ROBO-tics\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tsstu\OneDrive\Documents\GameDev\ROBO-tics\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tsstu\OneDrive\Documents\GameDev\ROBO-tics\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  4.736 seconds
+- Completed reload, in  1.921 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4740ms)
-		BeginReloadAssembly (565ms)
+	ReloadAssembly (1922ms)
+		BeginReloadAssembly (175ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (28ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (3578ms)
-			LoadAssemblies (443ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1585ms)
+			LoadAssemblies (199ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1140ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (246ms)
-			SetupLoadedEditorAssemblies (1661ms)
+			SetupTypeCache (408ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (789ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (360ms)
-				ProcessInitializeOnLoadAttributes (1128ms)
-				ProcessInitializeOnLoadMethodAttributes (131ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (172ms)
+				ProcessInitializeOnLoadAttributes (377ms)
+				ProcessInitializeOnLoadMethodAttributes (220ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3275 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (56.2 KB). Loaded Objects now: 3740.
-Memory consumption went from 114.7 MB to 114.6 MB.
-Total: 10.336900 ms (FindLiveObjects: 0.739200 ms CreateObjectMapping: 0.674400 ms MarkObjects: 8.697100 ms  DeleteObjects: 0.222900 ms)
+Unloading 3983 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (57.1 KB). Loaded Objects now: 4413.
+Memory consumption went from 134.7 MB to 134.7 MB.
+Total: 13.914200 ms (FindLiveObjects: 0.417700 ms CreateObjectMapping: 0.414000 ms MarkObjects: 12.870500 ms  DeleteObjects: 0.209500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,50 +160,62 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 540121.786141 seconds.
+  path: Assets/Scenes/PauseMenuWIP.unity
+  artifactKey: Guid(cbca26d5906079c46a8b4df60d2cfce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PauseMenuWIP.unity using Guid(cbca26d5906079c46a8b4df60d2cfce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1674f9f1446582b7cbb78f705f661231') in 0.013898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(4047eb08e6a41eb4aab232ed3cd781df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(4047eb08e6a41eb4aab232ed3cd781df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4acf3182cbeb7ad24dc48700ccdc31') in 1.123059 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.023688 seconds.
+Registered in 0.013637 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Drr\Desktop\ROBO-tics\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Drr\Desktop\ROBO-tics\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tsstu\OneDrive\Documents\GameDev\ROBO-tics\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tsstu\OneDrive\Documents\GameDev\ROBO-tics\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.431 seconds
+- Completed reload, in  4.899 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4434ms)
-		BeginReloadAssembly (572ms)
+	ReloadAssembly (4900ms)
+		BeginReloadAssembly (686ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (28ms)
+			DisableScriptedObjects (19ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (117ms)
-		EndReloadAssembly (3412ms)
-			LoadAssemblies (416ms)
+			ReleaseScriptingObjects (2ms)
+			CreateAndSetChildDomain (186ms)
+		EndReloadAssembly (3540ms)
+			LoadAssemblies (532ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1024ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (193ms)
-			SetupLoadedEditorAssemblies (1654ms)
+			SetupTypeCache (1002ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (223ms)
+			SetupLoadedEditorAssemblies (1782ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (59ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (289ms)
-				ProcessInitializeOnLoadAttributes (1133ms)
-				ProcessInitializeOnLoadMethodAttributes (153ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (66ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (8ms)
+				BeforeProcessingInitializeOnLoad (295ms)
+				ProcessInitializeOnLoadAttributes (829ms)
+				ProcessInitializeOnLoadMethodAttributes (566ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3256 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (24.6 KB). Loaded Objects now: 3743.
-Memory consumption went from 113.2 MB to 113.1 MB.
-Total: 10.997300 ms (FindLiveObjects: 0.666700 ms CreateObjectMapping: 0.480800 ms MarkObjects: 9.766900 ms  DeleteObjects: 0.079700 ms)
+Unloading 3964 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (25.6 KB). Loaded Objects now: 4464.
+Memory consumption went from 138.5 MB to 138.5 MB.
+Total: 8.199500 ms (FindLiveObjects: 0.346400 ms CreateObjectMapping: 0.246800 ms MarkObjects: 7.548400 ms  DeleteObjects: 0.055900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -215,3 +228,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
