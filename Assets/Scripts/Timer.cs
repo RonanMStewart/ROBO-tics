@@ -28,6 +28,8 @@ public class Timer : MonoBehaviour
             {
                 TimeRemaining = 0;
                 TimeOn = false;
+                TimerTxt.text = string.Format("Failure");
+                TimerTxt.color = Color.red;
             }
         }
         

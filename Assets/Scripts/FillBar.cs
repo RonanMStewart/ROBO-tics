@@ -11,6 +11,8 @@ public class FillBar : MonoBehaviour
 
     private float targetValue = 0;
 
+    public Timer timer;
+
     private void Awake() {
         slider = gameObject.GetComponent<Slider>();
     }
@@ -26,6 +28,13 @@ public class FillBar : MonoBehaviour
         if (slider.value < targetValue)
         {
             slider.value += FillSpeed * Time.deltaTime;
+        }
+
+        if (slider.value == 1.0f)
+        {
+            timer.TimeOn = false;
+            timer.TimerTxt.text = string.Format("Success");
+            timer.TimerTxt.color = Color.green;
         }
     }
     
