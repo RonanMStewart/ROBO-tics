@@ -4,5 +4,32 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: fb2771f698d872f439733d79dbb663b8
+  - enabled: 1
+    path: Assets/Scenes/Controls.unity
+    guid: 12531d789406bae4b904f38fcd969d86
+  - enabled: 1
+    path: Assets/Scenes/HeadsUpDisplayWIP.unity
+    guid: d992f21dc4f23074e87936e035210100
+  - enabled: 1
+    path: Assets/Scenes/LevelSelectWIP.unity
+    guid: 8b5be8ef10311544eb93cf49372dcbed
+  - enabled: 1
+    path: Assets/Scenes/MainMenuWIP.unity
+    guid: 5b3165130431e0544b596dbb3b6c936b
+  - enabled: 1
+    path: Assets/Scenes/PauseMenuWIP.unity
+    guid: cbca26d5906079c46a8b4df60d2cfce8
+  - enabled: 1
+    path: Assets/Scenes/Pouring Minigame.unity
+    guid: 9fb87b866f1a9d24a92c9637e6cb3b4f
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 587d361027a52e44c8d3f71189c6e248
+  - enabled: 1
+    path: Assets/Scenes/Wires.unity
+    guid: 8fe5d6ebfdc29284882d23796644b810
   m_configObjects: {}
