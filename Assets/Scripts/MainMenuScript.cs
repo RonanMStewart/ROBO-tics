@@ -18,22 +18,23 @@ public class MainMenuScript : MonoBehaviour
     public static bool isPaused = false;
 
     public void Pause() {
-        print("Pause ran");
-        pauseMenu.SetActive(true);
-        Time.timeScale = 0f;
         isPaused = true;
+        Time.timeScale = 0f;
+        pauseMenu.SetActive(true);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void Resume() {
-        print("resume ran");
-        pauseMenu.SetActive(false);
-        Time.timeScale = 1f;
         isPaused = false;
+        Time.timeScale = 1f;
+        pauseMenu.SetActive(false);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update() 
     {
-        print("does update even work?");
         if(Input.GetKeyDown(KeyCode.Escape)) {
             if(isPaused) {
                 Resume();
