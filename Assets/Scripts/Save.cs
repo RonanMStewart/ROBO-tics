@@ -3,39 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
-public class Save : MonoBehaviour
+public class Save : MonoBehaviour 
 {
 
-// public Button saveButton;
+    public GameObject player;
+    public float x;
+    public float y;
+    public float z;
+    public Timer timer;
 
-    void CreateSave() {
-        // save path
-        string path = Application.dataPath + "/Save File.txt";
-
-        // Initial text
-        if (!File.Exists(path)) {
-            File.WriteAllText(path,"Save \n");
+   public void CreateSave() {
+// sets player position 
+        x = player.transform.position.x;
+        PlayerPrefs.SetFloat("x", x);
+        y = player.transform.position.y;
+        PlayerPrefs.SetFloat("y", y);
+        z = player.transform.position.z;
+        PlayerPrefs.SetFloat("z", z);
+//sets time
+        PlayerPrefs.SetFloat("SavedTime", timer.TimeRemaining);
+//Creates save
+        PlayerPrefs.Save();
+	    Debug.Log("Game data saved! " + timer.TimeRemaining);
         }
-        
-        // save content
-        string content = "Current Time: " + System.DateTime.Now + "\n";
-
-        // put content into txt file
-        File.AppendAllText(path, content);
-    }
 
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        //Button btn = saveButton.GetComponent<Button>();
-		//btn.onClick.AddListener(CreateSave);
-        CreateSave();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
