@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class FillBar : MonoBehaviour
 {
@@ -16,6 +17,11 @@ public class FillBar : MonoBehaviour
     private void Awake() {
         slider = gameObject.GetComponent<Slider>();
     }
+
+    public void loadScene(int sceneID) {
+        SceneManager.LoadScene(sceneID);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +41,7 @@ public class FillBar : MonoBehaviour
             timer.TimeOn = false;
             timer.TimerTxt.text = string.Format("Success");
             timer.TimerTxt.color = Color.green;
+            loadScene(0);
         }
     }
     
