@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SlowMove : MonoBehaviour
 {
-    public GameObject gameObject;
+    public GameObject GameObject;
     public Vector3 targetPosition;
     public float speed;
     // Update is called once per frame
